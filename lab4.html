@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="stylelab1.css"/>
+</head>
+<body>
+    
+        <div class="box register-box"> 
+            <h2>Login</h2>   
+            <br><br>  
+            <div class="input-box">  
+                <label for="register-account">账号：</label>  
+                <input type="text" id="register-account" placeholder="请输入你的账号"/>  
+                <span id="account-error" style="color: red; display: none;">账号必须包含数字、字母和符号！</span>  
+            </div>  
+            <div class="input-box2">  
+                <label for="register-password">密码：</label>  
+                <input type="password" id="register-password" placeholder="请输入你的密码"/>  
+            </div>  
+            
+            <div class="btn-box"> 
+                <a herf="#">忘记密码？</a>
+                <br><br>  
+                <button onclick="login()">登录</button>
+                <button onclick="register()">注册</button>  
+            </div>  
+        </div>  
+    </div>
+    
+    <script src="scriptlab1.js"></script>
+</body>
+</html>
